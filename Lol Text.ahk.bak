@@ -1,0 +1,88 @@
+﻿#IfWinActive, League of Legends (TM) Client 
+^j::
+
+
+
+;text:= "Hey, it's okay."
+;Clipboard := text
+;SendInput, ^v{Enter}
+;SendInput, {Enter}
+
+
+Send, {Enter}"Hey, it's okay."{Enter}
+Sleep 1000
+Send, {Enter}"Don't beat yourself up too much - we all make mistakes sometimes."{Enter}
+Sleep 1000
+Send, {Enter}"As a jungler, we have a lot of responsibility to our team and it can be tough when things don't go according to plan."{Enter}
+Sleep 1000
+Send, {Enter}"But mistakes are also opportunities for us to learn and grow."{Enter}
+Sleep 1000
+Send, {Enter}"First of all, let's take a step back and figure out what went wrong."{Enter}
+Sleep 1000
+Send, {Enter}"Did you misread the map or underestimate the enemy team?"{Enter}
+Sleep 1000
+Send, {Enter}"Did you take a risk that didn't pay off?"{Enter}
+Sleep 1000
+Send, {Enter}"Whatever it was, it's important to identify it so we can prevent it from happening again in the future."{Enter}
+Sleep 1000
+Send, {Enter}"Now, let's work on fixing the problem."{Enter}
+Sleep 1000
+Send, {Enter}"Depending on the situation, we might need to adjust our strategy, communicate more effectively, or simply focus on farming and catching up."{Enter}
+Sleep 1000
+Send, {Enter}"As a jungler, it's important to be flexible and adaptable, especially when things don't go according to plan."{Enter}
+Sleep 1000
+Send, {Enter}"But most importantly, let's stay positive and keep our heads up."{Enter}
+Sleep 1000
+Send, {Enter}"One mistake doesn't define us as players, and it certainly doesn't mean we've lost the game."{Enter}
+Sleep 1000
+Send, {Enter}"In fact, some of the best games I've played have been the ones where we've had to come back from a deficit."{Enter}
+Sleep 1000
+Send, {Enter}"So let's take a deep breath, refocus, and come back stronger."{Enter}
+Send, {Enter}"We're a team and we're in this together."{Enter}
+Sleep 1000
+Send, {Enter}"If you need any help or support, just let me know."{Enter}
+Sleep 1000
+Send, {Enter}"And if we end up losing this game, that's okay - we'll learn from it and come back stronger next time."{Enter}
+Sleep 1000
+Send, {Enter}"That's what being a jungler is all about - taking risks, making mistakes, and learning from them."{Enter}
+
+^a::
+Send, {Enter}"Hey, it's okay."{Enter}
+Sleep 1000
+Send, {Enter}"Don't beat yourself up too much - we all make mistakes sometimes."{Enter}
+Sleep 1000
+Send, {Enter}"As a jungler, we have a lot of responsibility to our team and it can be tough when things don't go according to plan."{Enter}
+Sleep 1000
+Send, {Enter}"But mistakes are also opportunities for us to learn and grow."{Enter}
+Sleep 1000
+Send, {Enter}"First of all, let's take a step back and figure out what went wrong."{Enter}
+Sleep 1000
+Send, {Enter}"Did you misread the map or underestimate the enemy team?"{Enter}
+Sleep 1000
+Send, {Enter}"Did you take a risk that didn't pay off?"{Enter}
+Sleep 1000
+Send, {Enter}"Whatever it was, it's important to identify it so we can prevent it from happening again in the future."{Enter}
+Sleep 1000
+Send, {Enter}"Now, let's work on fixing the problem."{Enter}
+Sleep 1000
+Send, {Enter}"Depending on the situation, we might need to adjust our strategy, communicate more effectively, or simply focus on farming and catching up."{Enter}
+Sleep 1000
+Send, {Enter}"As a jungler, it's important to be flexible and adaptable, especially when things don't go according to plan."{Enter}
+Sleep 1000
+Send, {Enter}"But most importantly, let's stay positive and keep our heads up."{Enter}
+Sleep 1000
+Send, {Enter}"One mistake doesn't define us as players, and it certainly doesn't mean we've lost the game."{Enter}
+Sleep 1000
+Send, {Enter}"In fact, some of the best games I've played have been the ones where we've had to come back from a deficit."{Enter}
+Sleep 1000
+Send, {Enter}"So let's take a deep breath, refocus, and come back stronger."{Enter}
+Send, {Enter}"We're a team and we're in this together."{Enter}
+Sleep 1000
+Send, {Enter}"If you need any help or support, just let me know."{Enter}
+Sleep 1000
+Send, {Enter}"And if we end up losing this game, that's okay - we'll learn from it and come back stronger next time."{Enter}
+Sleep 1000
+Send, {Enter}"That's what being a jungler is all about - taking risks, making mistakes, and learning from them."{Enter}
+
+
+return
