@@ -27,8 +27,11 @@ SendKeys:
     Sleep, 2480
     Send, {2}
     Sleep, 2480
+<<<<<<< HEAD
 	Send, {3}
     Sleep, 2480
+=======
+>>>>>>> 73de24c7bf3d194eaa7de751120e6bee7bbfdea1
     if (!scriptRunning)
         SetTimer, SendKeys, Off
 }
