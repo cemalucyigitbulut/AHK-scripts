@@ -1,4 +1,4 @@
-﻿#IfWinActive, League of Legends (TM) Client 
+﻿;#IfWinActive, League of Legends (TM) Client 
 ^j::
 
 
@@ -57,7 +57,7 @@ Send, {Enter}"Ancak hatalar aynı zamanda öğrenme ve büyüme fırsatlarıdır
 Sleep 1000
 Send, {Enter}"İlk olarak, bir adım geri çekilip neyin yanlış gittiğini ve neden olduğunu anlamaya çalışalım."{Enter}
 Sleep 1000
-Send, {Enter}"Haritayı yanlış okudun mu veya düşman takımını küçümsedin mi? Ödülü olmayan bir risk aldın mı?"{Enter}
+Send, {Enter}"Haritayı yanlış okuwqdun mu veya düşman takımını küçümsedin mi? Ödülü olmayan bir risk aldın mı?"{Enter}
 Sleep 1000
 Send, {Enter}"Ne olursa olsun, gelecekte bunların tekrar olmaması için belirlemek önemlidir."{Enter}
 Sleep 1000
@@ -76,5 +76,31 @@ Sleep 1000
 Send, {Enter}"Biz bir takımız ve bu işte birlikteyiz. Herhangi bir yardıma veya desteğe ihtiyacın olursa, bana söyle. Ve eğer bu oyunda kaybedersek, sorun değil - ondan öğreneceğiz ve bir sonraki sefere daha güçlü döneceğiz."{Enter}
 Sleep 1000
 Send, {Enter}"Bir ormancı olmanın tam olarak bu anlamı - risk almak, hata yapmak ve onlardan öğrenmek."{Enter}
+
+
+
+^z::
+Send, {Enter}I<Y${Enter}
+Sleep 100
+Send, {Enter}I<Y${Enter}
+Sleep 100
+Send, {Enter}I<Y${Enter}
+Sleep 100
+Send, {Enter}I<Y${Enter}
+Sleep 100
+Send, {Enter}I<Y${Enter}
+Sleep 100
+Send, {Enter}I<Y${Enter}
+Sleep 100
+Send, {Enter}I<Y${Enter}
+Sleep 100
+Send, {Enter}I<Y${Enter}
+Sleep 100
+
+
+
+
+
+
 
 return

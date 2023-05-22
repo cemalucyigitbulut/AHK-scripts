@@ -1,4 +1,4 @@
-﻿#IfWinActive, League of Legends (TM) Client 
+﻿;#IfWinActive, League of Legends (TM) Client 
 ^j::
 
 
@@ -47,42 +47,52 @@ Sleep 1000
 Send, {Enter}"That's what being a jungler is all about - taking risks, making mistakes, and learning from them."{Enter}
 
 ^a::
-Send, {Enter}"Hey, it's okay."{Enter}
+Send, {Enter}"Merak etme, tamam."{Enter}
 Sleep 1000
-Send, {Enter}"Don't beat yourself up too much - we all make mistakes sometimes."{Enter}
+Send, {Enter}"Kendini çok fazla üzme - hepimiz bazen hata yaparız."{Enter}
 Sleep 1000
-Send, {Enter}"As a jungler, we have a lot of responsibility to our team and it can be tough when things don't go according to plan."{Enter}
+Send, {Enter}"Bir ormancı olarak, takımımıza karşı büyük bir sorumluluğumuz var ve işler planlandığı gibi gitmediğinde zor olabilir."{Enter}
 Sleep 1000
-Send, {Enter}"But mistakes are also opportunities for us to learn and grow."{Enter}
+Send, {Enter}"Ancak hatalar aynı zamanda öğrenme ve büyüme fırsatlarıdır."{Enter}
 Sleep 1000
-Send, {Enter}"First of all, let's take a step back and figure out what went wrong."{Enter}
+Send, {Enter}"İlk olarak, bir adım geri çekilip neyin yanlış gittiğini ve neden olduğunu anlamaya çalışalım."{Enter}
 Sleep 1000
-Send, {Enter}"Did you misread the map or underestimate the enemy team?"{Enter}
+Send, {Enter}"Haritayı yanlış okuwqdun mu veya düşman takımını küçümsedin mi? Ödülü olmayan bir risk aldın mı?"{Enter}
 Sleep 1000
-Send, {Enter}"Did you take a risk that didn't pay off?"{Enter}
+Send, {Enter}"Ne olursa olsun, gelecekte bunların tekrar olmaması için belirlemek önemlidir."{Enter}
 Sleep 1000
-Send, {Enter}"Whatever it was, it's important to identify it so we can prevent it from happening again in the future."{Enter}
+Send, {Enter}"Şimdi, sorunu çözmek üzerine çalışalım. Duruma göre, stratejimizi ayarlamamız, daha etkili iletişim kurmamız veya sadece çiftçiliğe ve yakalama yapmaya odaklanmamız gerekebilir."{Enter}
 Sleep 1000
-Send, {Enter}"Now, let's work on fixing the problem."{Enter}
+Send, {Enter}"Bir ormancı olarak, özellikle planlarımız istediğimiz gibi gitmediğinde esnek ve uyarlanabilir olmak önemlidir."{Enter}
 Sleep 1000
-Send, {Enter}"Depending on the situation, we might need to adjust our strategy, communicate more effectively, or simply focus on farming and catching up."{Enter}
+Send, {Enter}"Ancak en önemlisi, pozitif kalalım ve başımızı dik tutalım. "{Enter}
 Sleep 1000
-Send, {Enter}"As a jungler, it's important to be flexible and adaptable, especially when things don't go according to plan."{Enter}
+Send, {Enter}"Bir hata, bizleri oyuncu olarak tanımlamaz ve kesinlikle oyunu kaybettiğimiz anlamına gelmez. "{Enter}
 Sleep 1000
-Send, {Enter}"But most importantly, let's stay positive and keep our heads up."{Enter}
+Send, {Enter}"Aslında, oynadığım en iyi oyunlardan bazıları, bir geri dönüş yapmamız gereken oyunlardı."{Enter}
 Sleep 1000
-Send, {Enter}"One mistake doesn't define us as players, and it certainly doesn't mean we've lost the game."{Enter}
+Send, {Enter}"Bu yüzden derin bir nefes alalım, odaklanalım ve daha güçlü bir şekilde geri dönelim."{Enter}
 Sleep 1000
-Send, {Enter}"In fact, some of the best games I've played have been the ones where we've had to come back from a deficit."{Enter}
+Send, {Enter}"Biz bir takımız ve bu işte birlikteyiz. Herhangi bir yardıma veya desteğe ihtiyacın olursa, bana söyle. Ve eğer bu oyunda kaybedersek, sorun değil - ondan öğreneceğiz ve bir sonraki sefere daha güçlü döneceğiz."{Enter}
 Sleep 1000
-Send, {Enter}"So let's take a deep breath, refocus, and come back stronger."{Enter}
-Send, {Enter}"We're a team and we're in this together."{Enter}
-Sleep 1000
-Send, {Enter}"If you need any help or support, just let me know."{Enter}
-Sleep 1000
-Send, {Enter}"And if we end up losing this game, that's okay - we'll learn from it and come back stronger next time."{Enter}
-Sleep 1000
-Send, {Enter}"That's what being a jungler is all about - taking risks, making mistakes, and learning from them."{Enter}
+Send, {Enter}"Bir ormancı olmanın tam olarak bu anlamı - risk almak, hata yapmak ve onlardan öğrenmek."{Enter}
+
+
+
+^z::
+Send, {Enter}I<Y${Enter}
+Sleep 500
+Send, {Enter}I<Y${Enter}
+Sleep 500
+Send, {Enter}I<Y${Enter}
+Sleep 500
+Send, {Enter}I<Y${Enter}
+Sleep 500
+Send, {Enter}I<Y${Enter}
+Sleep 500
+
+
+
 
 
 return
