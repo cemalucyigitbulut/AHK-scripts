@@ -12,7 +12,7 @@ else
 {
     scriptRunning := true
     MsgBox Script started.
-    SetTimer, SendKeys, 2480
+    SetTimer, SendKeys, 0
 }
 return
 
@@ -26,6 +26,8 @@ SendKeys:
     Send, {1}
     Sleep, 2480
     Send, {2}
+    Sleep, 2480
+	Send, {3}
     Sleep, 2480
     if (!scriptRunning)
         SetTimer, SendKeys, Off

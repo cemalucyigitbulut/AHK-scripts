@@ -24,9 +24,11 @@ return
 SendKeys:
 {
     Send, {1}
-    Sleep, 1000
+    Sleep, 2480
     Send, {2}
-    Sleep, 1000
+    Sleep, 2480
+	Send, {3}
+    Sleep, 2480
     if (!scriptRunning)
         SetTimer, SendKeys, Off
 }
