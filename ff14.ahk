@@ -1,0 +1,33 @@
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#Warn  ; Enable warnings to assist with detecting common errors.
+#SingleInstance
+#IfWinActive FINAL FANTASY XIV
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+
+scriptRunning := 0
+
+^j::
+    if (scriptRunning)
+    {
+        SetTimer, SendKeys, Off
+        scriptRunning := false
+        MsgBox, Stopped
+    }
+    else
+    {
+        SetTimer, SendKeys, 2480
+        scriptRunning := true
+        MsgBox, Started
+    }
+return
+
+SendKeys:
+    Send, {1}
+    Sleep, 2480
+    Send, {2}
+    Sleep, 2480
+    Send, {3}
+    Sleep, 2480
+return
